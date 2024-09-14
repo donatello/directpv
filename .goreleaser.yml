@@ -4,7 +4,7 @@ release:
    name_template: "Release version {{.Version}}"
 
    github:
-    owner: minio
+    owner: donatello
     name: directpv
 
    extra_files:
