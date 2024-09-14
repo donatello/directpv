@@ -3,6 +3,8 @@ project_name: directpv
 release:
    name_template: "Release version {{.Version}}"
 
+   target_commitish: "{{ .Commit }}"
+
    github:
     owner: donatello
     name: directpv
